@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Store Example</h1>
 
-## Getting Started
+<p align="center">Sistema simples que visa utilizar de conceitos introdutórios de Next.js</p>
 
-First, run the development server:
+<p align="center">
+ <a href="#funções">Funções</a> • 
+ <a href="#Pré-requisitos">Rodando</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#autor">Autor</a>
+</p>
+
+<h4 align="center"> 
+	🚧  Loja em construção...  🚧
+</h4>
+
+<p align="center">
+<img width= "1000" src="./Screenshots/1.png" />
+</p>
+
+### Funções
+
+- [x] Criação das páginas de Login, cadastro de produtos e listagem de produtos
+- [x] Formulário com os campos de nome do produto, preço e descrição para criação de novos produtos
+- [x] Tela de listagem dos produtos com possibilidade de adicionar no carrinho
+- [x] Drawer listando os produtos adicionados ao carrinho
+- Mais funções em breve...
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+### Rodando
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone este repositório
+$ git clone <https://github.com/dougpn/store-example>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd store-example
+
+# Instale as dependências
+$ npm install
+
+# Inicie o servidor
+$ npm run mock
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 ```
+### Tecnologias
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Typescript](https://www.typescriptlang.org/)
+- [React](https://pt-br.reactjs.org/)
+- [Next](https://nextjs.org/docs)
+- [Tailwind](https://tailwindcss.com/docs/installations)
+- [Shadcn UI](https://ui.shadcn.com/docs)
+- [Json Server](https://github.com/typicode/json-server/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Autor
 
-## Learn More
+<a href="https://github.com/dougpn/">
+ <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/62621650?s=400&u=d9672bc16aaaf1fd2b3df06d7e42068ffec48525&v=4" width="100px />
+ <br />
+ <sub><b>Douglas Neves</b></sub></a> <a href="https://github.com/dougpn" ></a>
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Feito por Douglas Neves 👋🏽 Entre em contato!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[![Linkedin Badge](https://img.shields.io/badge/-Douglas-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/douglaspneves/)](https://www.linkedin.com/in/douglaspneves/) 
+[![Gmail Badge](https://img.shields.io/badge/-nevesdouglasp@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:nevesdouglasp@gmail.com)](mailto:nevesdouglasp@gmail.com)
