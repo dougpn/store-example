@@ -23,7 +23,7 @@
 - [x] Formulário com os campos de nome do produto, preço e descrição para criação de novos produtos
 - [x] Tela de listagem dos produtos com possibilidade de adicionar no carrinho
 - [x] Drawer listando os produtos adicionados ao carrinho
-- Mais funções em breve...
+- [ ] Mais funções em breve...
 
 ### Pré-requisitos
 
