@@ -8,7 +8,7 @@ export default function Home() {
       <div>
         {session.status === "authenticated"
           ? "Você está autenticado, use as opções no topo esquerdo para navegar entre as páginas!"
-          : "Você não está autenticado, use o botão do topo direito para se logar."}
+          : "Você não está autenticado, use o botão do topo direito para se logar!"}
       </div>
     </main>
   );
