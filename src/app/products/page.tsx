@@ -37,7 +37,7 @@ export default function ProductsPage() {
   }
   useEffect(() => {
     axios
-      .get("http://localhost:3001/data")
+      .get("https://store-server-woad.vercel.app/data")
       .then((response) => setData(response.data));
   }, []);
   if (session.status !== "authenticated") {

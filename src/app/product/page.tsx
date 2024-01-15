@@ -36,7 +36,7 @@ export default function CreateProductPage() {
   }
 
   function handleSubmit() {
-    axios.post("http://localhost:3001/data", formData).then(() => {
+    axios.post("https://store-server-woad.vercel.app/data", formData).then(() => {
       router.push("/products");
     });
   }
